@@ -1,0 +1,7 @@
+numpy
+opencv-python-headless>=4.8   # use opencv-python instead if you want --display windows
+PyYAML
+Flask
+reportlab
+ultralytics             # YOLO + ByteTrack (pulls in torch)
+easyocr                 # ANPR OCR (optional; pytesseract + tesseract binary also works)

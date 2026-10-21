@@ -1,0 +1,57 @@
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ── Virtual environments ───────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment / secrets ─────────────────────────────
+.env
+.env.*
+secrets.yaml
+
+# ── ML model weights (large binary files) ─────────────
+*.pt
+*.onnx
+*.pth
+*.pb
+*.tflite
+
+# ── Runtime data (database, snapshots, reports, output) 
+data/*
+!data/.gitkeep
+out/
+*.log
+
+# ── Video samples (use Git LFS or share separately) ───
+samples/*.avi
+samples/*.mp4
+samples/*.mkv
+*.mp4
+*.avi
+
+# ── OS / Editor ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── pytest / coverage ─────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
